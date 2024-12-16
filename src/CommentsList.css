@@ -1,0 +1,25 @@
+/* Стили для списка комментариев */
+ul {
+list-style: none;
+padding: 0;
+}
+
+li {
+margin: 10px 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+button {
+background-color: #ff4d4d;
+color: white;
+border: none;
+padding: 5px 10px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #e60000;
+}
+  
